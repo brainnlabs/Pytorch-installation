@@ -6,13 +6,7 @@
 
 Youtube Video:
 
-[2020, TensorFlow 2.2 NVIDIA GPU (CUDA)/CPU, Keras, & Python 3.7 in Linux Ubuntu](https://www.youtube.com/watch?v=dj-Jntz-74g&t=357s)
-
-Before to proceed with instructions, check the latest compatibility versions of tensorflow through conda
-
-[Tensorflow compatibility chart](https://www.tensorflow.org/install/source)
-
-[tensorflow-gpu Conda Version](https://anaconda.org/anaconda/tensorflow-gpu)
+[How to Install PyTorch on Linux for CPU or GPU - No Driver Install Needed](https://www.youtube.com/watch?v=YTvVxYneu7w)
 
 ---
 
