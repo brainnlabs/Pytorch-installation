@@ -1,7 +1,6 @@
 name: pytorch
 
 dependencies:
-    - cudatoolkit=11.3.1 
     - cudnn=8.2.1
     - jupyter
     - scikit-learn
@@ -18,7 +17,6 @@ dependencies:
     - boto3
     - pip
     - pip:
-        - tensorflow==2.10
         - bayesian-optimization
         - gym
         - kaggle
