@@ -34,11 +34,11 @@ Youtube Video:
 
 5.- Install Jupiter Notebook: **conda install -y jupyter**
 
-6.- Create *tensorflow environment* inside conda: **conda create --name pytorch python=3.7**
+6.- Create *pytorch environment* inside conda: **conda create --name pytorch python=3.7**
 
-7.- Enter the created *tensorflow environment*: **conda activate pytorch**
+7.- Enter the created *pytorch environment*: **conda activate pytorch**
 
-8.- Add Jupyter support to the *tensorflow environment*: **conda install -c conda-forge nb_conda**
+8.- Add Jupyter support to the *pytorch environment*: **conda install -c conda-forge nb_conda**
 
 9.- Install *pytorch*: **conda install pytorch=1.12 cudatoolkit=11.3 -c pytorch**
 
@@ -50,7 +50,7 @@ Youtube Video:
 
 12.- Register your environment to show inside jupyter notebook: **python -m ipykernel install --user --name pytorch --display-name "Python 3.7 (pytorch)""**
 
-13.- Testing *tensorflow* environment: **jupyter notebook**
+13.- Testing *pytorch* environment: **jupyter notebook**
 
 ```
 # What version of Python do you have?
