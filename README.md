@@ -48,7 +48,7 @@ Youtube Video:
 
 11.- Run the following terminal command: **conda env update --file toolsPytorch.yml** 
 
-12.- Register your environment to show inside jupyter notebook: **python -m ipykernel install --user --name pytorch --display-name "Python 3.7 (pytorch)""**
+12.- Register your environment to show inside jupyter notebook: **python -m ipykernel install --user --name pytorch --display-name "Python 3.7 (pytorch)"**
 
 13.- Testing *pytorch* environment: **jupyter notebook**
 
