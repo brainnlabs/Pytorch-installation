@@ -42,7 +42,7 @@ Youtube Video:
 
 9.- Install *pytorch*: **conda install pytorch=1.12 cudatoolkit=11.3 -c pytorch**
 
-+ *tensorflow-gpu* installs *pytorch 1.12.1*, CUDA 11.3.1 and cuDNN 8.3.2
++ software installs: *pytorch 1.12.1*, CUDA 11.3.1 and cuDNN 8.3.2
 
 10.- Additional required libraries, Download [toolsPytorch.yml](https://raw.githubusercontent.com/brainnlabs/Pytorch-installation/main/toolsPytorch.yml) and paste it inside *home* folder.
 
@@ -56,24 +56,21 @@ Youtube Video:
 # What version of Python do you have?
 import sys
 
-import tensorflow.keras
+import torch
 import pandas as pd
 import sklearn as sk
-import tensorflow as tf
 
-print(f"Tensor Flow Version: {tf.__version__}")
-print(f"Keras Version: {tensorflow.keras.__version__}")
+print(f"PyTorch Version: {torch.__version__}")
 print()
 print(f"Python {sys.version}")
 print(f"Pandas {pd.__version__}")
 print(f"Scikit-Learn {sk.__version__}")
-gpu = len(tf.config.list_physical_devices('GPU'))>0
-print("GPU is", "available" if gpu else "NOT AVAILABLE")
+print("GPU is", "available" if torch.cuda.is_available() else "NOT AVAILABLE")
 ```
 
-*Tensor Flow Version: 2.1.0*  
-*Keras Version: 2.2.4-tf*
+*PyTorch Version: 1.12.0*  
 
-*Python 3.7.7 (default, May  6 2020, 11:45:54) [MSC v.1916 64 bit (AMD64)]* 
+*Python 3.7.16 (default, May  6 2020, 11:45:54) [MSC v.1916 64 bit (AMD64)]*  
 *Pandas 1.0.5*  
 *Scikit-Learn 0.23.1*  
+*GPU is available*
