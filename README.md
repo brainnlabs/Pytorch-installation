@@ -40,11 +40,11 @@ Youtube Video:
 
 8.- Add Jupyter support to the *tensorflow environment*: **conda install -c conda-forge nb_conda**
 
-9.- Install *tensorflow-gpu*: **conda install -c anaconda tensorflow-gpu**
+9.- Install *pytorch*: **conda install pytorch=1.12 cudatoolkit=11.3 -c pytorch**
 
-+ *tensorflow-gpu* installs *tensorflow 2.4.1*, CUDA 10.0 and cuDNN 7.0
++ *tensorflow-gpu* installs *pytorch 1.12.1*, CUDA 11.3.1 and cuDNN 8.3.2
 
-10.- Additional libraries and downgrading *tensorflow 2.4.1* to *tensorflow 2.1* is required, Download [toolsTensorflow.yml](https://raw.githubusercontent.com/brainnlabs/SSD-Initialization/main/toolsTensorflow.yml) and paste it inside *home* folder.
+10.- Additional required libraries, Download [toolsPytorch.yml](https://raw.githubusercontent.com/brainnlabs/SSD-Initialization/main/toolsTensorflow.yml) and paste it inside *home* folder.
 
 11.- Run the following terminal command: **conda env update --file toolsTensorflow.yml** 
 
