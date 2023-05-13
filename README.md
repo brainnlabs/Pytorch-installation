@@ -34,9 +34,9 @@ Youtube Video:
 
 5.- Install Jupiter Notebook: **conda install -y jupyter**
 
-6.- Create *tensorflow environment* inside conda: **conda create --name tensorflow python=3.7**
+6.- Create *tensorflow environment* inside conda: **conda create --name pytorch python=3.7**
 
-7.- Enter the created *tensorflow environment*: **conda activate tensorflow**
+7.- Enter the created *tensorflow environment*: **conda activate pytorch**
 
 8.- Add Jupyter support to the *tensorflow environment*: **conda install -c conda-forge nb_conda**
 
@@ -44,11 +44,11 @@ Youtube Video:
 
 + *tensorflow-gpu* installs *pytorch 1.12.1*, CUDA 11.3.1 and cuDNN 8.3.2
 
-10.- Additional required libraries, Download [toolsPytorch.yml](https://raw.githubusercontent.com/brainnlabs/SSD-Initialization/main/toolsTensorflow.yml) and paste it inside *home* folder.
+10.- Additional required libraries, Download [toolsPytorch.yml](https://raw.githubusercontent.com/brainnlabs/Pytorch-installation/main/toolsPytorch.yml) and paste it inside *home* folder.
 
-11.- Run the following terminal command: **conda env update --file toolsTensorflow.yml** 
+11.- Run the following terminal command: **conda env update --file toolsPytorch.yml** 
 
-12.- Register your environment to show inside jupyter notebook: **python -m ipykernel install --user --name tensorflow --display-name "Python 3.7 (tensorflow)"**
+12.- Register your environment to show inside jupyter notebook: **python -m ipykernel install --user --name pytorch --display-name "Python 3.7 (pytorch)""**
 
 13.- Testing *tensorflow* environment: **jupyter notebook**
 
