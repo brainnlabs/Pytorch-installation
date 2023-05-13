@@ -13,10 +13,10 @@ Youtube Video:
 # Required Software versions:
 
 + **miniconda 3.8**
-+ **tensorflow-2.1.0**
++ **pytorch 1.12.0**
 + **phyton 3.7.16**
-+ **cuDNN	7.6.5**
-+ **CUDA 10.1.243**
++ **cuDNN	8.3.2**
++ **CUDA 11.3.1**
 
 ---
 
